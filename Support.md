@@ -1,0 +1,18 @@
+# Support
+
+If you have a question about Sub-Zero, please post a question in the [forum support thread](https://forums.plex.tv/discussion/186575)
+
+Also note, that you might be asked to provide logs, and if so, make sure that the [[logging level|Configuration#wiki-develop]] is set to debug.
+
+To locate the log files, look [here](https://support.plex.tv/hc/en-us/articles/200250417)
+
+# Bug reporting
+
+If you encountered a bug, then feel free to either post in the support forum, or, and preferred, create an [issue](https://github.com/pannal/Sub-Zero.bundle/issues) here on github, and:
+* be sure to post your logs with your log_level to DEBUG in Sub-Zero's settings
+* get Library/Application Support/Plex Media Server/Logs/PMS Plugin Logs/com.plexapp.agents.subzero.log; there may be multiple logs (com.plexapp.agents.subzero.log.*) depending on the amount of Videos you're refreshing
+
+**Remember**: If you're using the manual installation, before you open a bug-ticket please double-check, that you've deleted the Sub-Zero.bundle folder **BEFORE** every update (to avoid .pyc leftovers)
+
+
+[[Back to main page|Home]]
