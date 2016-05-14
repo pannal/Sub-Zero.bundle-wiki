@@ -9,12 +9,10 @@ Originally based on @bramwalet's awesome [Subliminal.bundle](https://github.com/
 
 Plex forum thread: [https://forums.plex.tv/discussion/186575](https://forums.plex.tv/discussion/186575)
 
-## This Wiki is still work in progress!
-
-* [About Sub-Zero](https://github.com/pannal/Sub-Zero.bundle/wiki/About-Sub-Zero)
-* [Installation](https://github.com/pannal/Sub-Zero.bundle/wiki/Installation)
-* [Configuration](https://github.com/pannal/Sub-Zero.bundle/wiki/Configuration)
+* [[About Sub-Zero|About-Sub-Zero]]
+* [[Installation|Installation]]
+* [[Configuration|Configuration]]
 * User Guide
-* Developers Corner
-* Support
-
+* [[Developers Corner|Developers-Corner]]
+* [[Support|Support]]
+* [[License|License]]
