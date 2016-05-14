@@ -1,5 +1,5 @@
 # Welcome to the Sub-Zero.bundle wiki!
-[![](https://img.shields.io/github/release/pannal/Sub-Zero.bundle.svg?style=flat)](https://github.com/pannal/Sub-Zero.bundle/releases)
+[![](https://img.shields.io/github/release/pannal/Sub-Zero.bundle.svg?style=flat)](https://github.com/pannal/Sub-Zero.bundle/releases) [![Maintenance](https://img.shields.io/maintenance/yes/2016.svg?maxAge=2592000)]()
 
 ![Logo](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/subzero.gif)
 
