@@ -5,7 +5,7 @@
 
 **Subtitles done right**
 
-Originally based on @bramwalet's awesome [Subliminal.bundle](https://github.com/bramwalet/Subliminal.bundle)
+Originally based on [@bramwalet](https://github.com/bramwalet) awesome [Subliminal.bundle](https://github.com/bramwalet/Subliminal.bundle)
 
 Plex forum thread: [https://forums.plex.tv/discussion/186575](https://forums.plex.tv/discussion/186575)
 
