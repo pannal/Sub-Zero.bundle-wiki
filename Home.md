@@ -1,4 +1,6 @@
 # Welcome to the Sub-Zero.bundle wiki!
+[![](https://img.shields.io/github/release/pannal/Sub-Zero.bundle.svg?style=flat)](https://github.com/pannal/Sub-Zero.bundle/releases)
+
 ![Logo](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/subzero.gif)
 
 **Subtitles done right**
