@@ -11,7 +11,7 @@ Plex forum thread: [https://forums.plex.tv/discussion/186575](https://forums.ple
 
 * [About Sub-Zero](https://github.com/pannal/Sub-Zero.bundle/wiki/What-is-Sub-Zero)
 * [Installation](https://github.com/pannal/Sub-Zero.bundle/wiki/Installation)
-* [Configuration](https://github.com/pannal/Sub-Zero.bundle/wiki/Configuration)
+* Configuration
 * User Guide
 * Developers Corner
 * Support
