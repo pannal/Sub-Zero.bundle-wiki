@@ -1,0 +1,1 @@
+Sub-Zero was created by [pannal](https://github.com/pannal) if you like it, then consider buying him a beer [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=G9VKR2B8PMNKG)
