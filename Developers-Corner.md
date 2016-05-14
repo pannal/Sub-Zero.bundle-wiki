@@ -1,3 +1,5 @@
+[![GitHub issues](https://img.shields.io/github/issues/dagalufh/WebTools.bundle.svg?style=flat)](https://github.com/dagalufh/WebTools.bundle/issues) [![Github All Releases](https://img.shields.io/github/downloads/pannal/Sub-Zero.bundle/total.svg?maxAge=2592000)]()
+
 If you are a developer, that wants to help/add to Sub-Zero, then please read ahead
 
 ## Installation:
