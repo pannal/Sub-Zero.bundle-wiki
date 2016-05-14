@@ -1,4 +1,4 @@
-[![GitHub issues](https://img.shields.io/github/issues/pannal/Sub-Zero.bundle.svg?style=flat)](https://github.com/pannal/Sub-Zero.bundle/issues) [![Github All Releases](https://img.shields.io/github/downloads/pannal/Sub-Zero.bundle/total.svg?maxAge=2592000)]()
+[![GitHub issues](https://img.shields.io/github/issues/pannal/Sub-Zero.bundle.svg?style=flat)](https://github.com/pannal/Sub-Zero.bundle/issues) [![Github All Releases](https://img.shields.io/github/downloads/pannal/Sub-Zero.bundle/total.svg?maxAge=2592000)](https://github.com/pannal/Sub-Zero.bundle/releases)
 
 If you are a developer, that wants to help/add to Sub-Zero, then please read ahead
 
