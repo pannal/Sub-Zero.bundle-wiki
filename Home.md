@@ -9,7 +9,7 @@ Originally based on @bramwalet's awesome [Subliminal.bundle](https://github.com/
 
 Plex forum thread: [https://forums.plex.tv/discussion/186575](https://forums.plex.tv/discussion/186575)
 
-* [[About Sub-Zero|About-Sub-Zero]]
+* [[About Sub-Zero|About-Sub‐Zero]]
 * [[Installation|Installation]]
 * [[Configuration|Configuration]]
 * User Guide
