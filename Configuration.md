@@ -1,6 +1,7 @@
+<a name="top"></a>
 # Accessing the configuration
 
-To access the configuration of Sub-Zero, first select the Channels menu | Then press the little gear icon
+To access the configuration of Sub-Zero, first select the Channels menu, and then press the little gear icon
 
 ![Channels](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Select_Channels.png)
 ![Select Gear Icon](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Select_Gear_Icon.png)
@@ -49,14 +50,16 @@ The configuration page will now show, and let's go through that in a couple of s
  * "force HI": skip subtitles if the hearing impaired flag isn't set
  * "force non-HI": skip subtitles if the hearing impaired flag is set
 
+<a name="store"></a>
+
 ![Conf-4](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Conf-4.png)
 
 1. Store subtitles next to media files (instead of metadata): 
- * See Store as metadata or on filesystem
+ * See [[Store as metadata or on filesystem|Store-as-metadata-or-on-filesystem]]
 2. Subtitle folder: 
- * (default: current media file's folder) See Store as metadata or on filesystem
+ * (default: current media file's folder) See [[Store as metadata or on filesystem|Store-as-metadata-or-on-filesystem]]
 3. Custom Subtitle folder: 
- * See Store as metadata or on filesystem
+ * See [[Store as metadata or on filesystem|Store-as-metadata-or-on-filesystem]]
 4. Treat [IETF language tags](https://en.wikipedia.org/wiki/IETF_language_tag) as ISO 639-1: 
  * Treats subtitle files with IETF language identifiers, such as pt-BR, as their ISO 639-1 counterpart. Thus "pt-BR" will be shown as "Portuguese" instead of "Unknown"
 
@@ -72,6 +75,8 @@ Periodically search for recent items with missing subtitles:
 4. Recent items to consider per library: 
  * How many items to consider for every section/library you have - used in "Search for missing subtitles"-task and "Items with missing subtitles"-menu. Change at your own risk!
 
+<a name="develop"></a>
+
 ![Conf-6](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Conf-6.png)
 
 1. Check for correct folder permissions of every library on plugin start: 
@@ -81,4 +86,6 @@ Periodically search for recent items with missing subtitles:
 3. Log to console (for development/debugging): 
  * You know when you need it
 
-[Back](https://github.com/pannal/Sub-Zero.bundle/wiki)
+[[Back to main page|Home]]
+
+[Go to top](#top)
