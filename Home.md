@@ -13,7 +13,7 @@ Plex forum thread: [https://forums.plex.tv/discussion/186575](https://forums.ple
 
 * [About Sub-Zero](https://github.com/pannal/Sub-Zero.bundle/wiki/About-Sub-Zero)
 * [Installation](https://github.com/pannal/Sub-Zero.bundle/wiki/Installation)
-* Configuration
+* [Configuration](https://github.com/pannal/Sub-Zero.bundle/wiki/Configuration)
 * User Guide
 * Developers Corner
 * Support
