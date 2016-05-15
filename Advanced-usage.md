@@ -9,4 +9,19 @@ You can find all available routes by querying http://plex_ip:32400/video/subzero
 
 To lookup your personal token, take a peak [here](https://support.plex.tv/hc/en-us/articles/204059436)
 
+## Adv. Channel menu
+
+In the Advanced channel menu, you'll see the following:
+
+![Advanced_1](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Advanced_1.png)
+
+1. Restart the plugin
+ * This will restart Sub-Zero, and read the configuration
+2. This will make a log entry of the selected setting.
+ * Used if debugging, or if asked so by a developer
+3. This will reset a saved setting to it's default
+ * Used if debugging, or if asked so by a developer
+
+[[Next page|Developers-Corner]]
+
 [[Back to main page|Home]]
