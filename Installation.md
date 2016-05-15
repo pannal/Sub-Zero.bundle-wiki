@@ -5,4 +5,6 @@ Sub-Zero is part of the Official Plex Channel Directory, so to install it, look 
 
 To install manually, see [[Developers-Corner|Developers-Corner]]
 
+[[Next page|Configuration]]
+
 [[Back to main page|Home]]
