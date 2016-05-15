@@ -89,9 +89,9 @@ Periodically search for recent items with missing subtitles:
 ![Conf-6](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Conf-6.png)
 
 1. Check for correct folder permissions of every library on plugin start: 
- * if enabled, SZ checks for necessary permissions of your library folders and warns about them in the plugin channel
+ * if enabled, SZ checks for write permissions of your library folders and warns about them in the plugin channel
 2. How verbose should the logging be?: 
- * Controls how much info we write into the log files (default: only warnings)
+ * Controls how much info SZ writes into the log files (default: only warnings) - this is decoupled from your PMS logging settings and determines how verbose Sub-Zero logs information
 3. Log to console (for development/debugging): 
  * You know when you need it
 
