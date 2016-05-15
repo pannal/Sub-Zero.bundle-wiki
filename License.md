@@ -2,6 +2,9 @@
 -------
 [The Unlicense](http://unlicense.org/)
 
+AKA: Use this code as you please. You'll know why or when to contact me.
+Use the beer-button in the main readme if you want to contribute without doing anything - otherwise, contributions are always welcome ;)
+
 ## Libraries
 ---------
 Uses the following libraries and their LICENSE:
