@@ -1,6 +1,6 @@
 [![GitHub issues](https://img.shields.io/github/issues/pannal/Sub-Zero.bundle.svg?style=flat)](https://github.com/pannal/Sub-Zero.bundle/issues) [![Github All Releases](https://img.shields.io/github/downloads/pannal/Sub-Zero.bundle/total.svg?maxAge=2592000)](https://github.com/pannal/Sub-Zero.bundle/releases)
 
-If you are a developer, that wants to help/add to Sub-Zero, then please read ahead
+If you are a developer, that wants to help/add to Sub-Zero, then please read ahead, and if you want to help on already open issues, simply click on the issue link above
 
 ## Installation:
 In order to allow your development to not be overwritten automatically by the Plex Media Server, you should follow the following installation procedure:
@@ -17,5 +17,7 @@ In order to allow your development to not be overwritten automatically by the Pl
 ### Logging to console:
 
 During development, it might be useful to enable [[Console logging|Configuration#wiki-develop]], but do note, that if no console is running, some platforms will error out then
+
+[[Next page|Support]]
 
 [[Back to main page|Home]]
