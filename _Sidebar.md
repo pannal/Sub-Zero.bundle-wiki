@@ -2,7 +2,7 @@
 * [[About Sub-Zero|About-Sub‐Zero]]
 * [[Installation|Installation]]
 * [[Configuration|Configuration]]
-* User Guide
+* [[User Guide|User-Guide]]
 * [[Advanced usage|Advanced-usage]]
 * [[Developers Corner|Developers-Corner]]
 * [[Support|Support]]
