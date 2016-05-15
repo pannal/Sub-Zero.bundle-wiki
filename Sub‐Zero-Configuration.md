@@ -1,13 +1,15 @@
 <a name="top"></a>
 # Accessing the configuration
 
-To access the configuration of Sub-Zero, first select the Channels menu, and then press the little gear icon
+To access the configuration of Sub-Zero, first select the Channels menu, and then press the little gear icon.
+You can also access Sub-Zero's settings from the Agents menu in your PMS configuration.
 
 ![Channels](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Select_Channels.png)
 ![Select Gear Icon](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Select_Gear_Icon.png)
 
 The configuration page will now show, and let's go through that in a couple of steps:
 
+## Basic configuration
 ![Conf1](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Conf-1.png)
 
 1. Enable Sub-Zero channel.this will disable manual operation, but still allows Sub-Zero to work automatically
@@ -19,9 +21,10 @@ The configuration page will now show, and let's go through that in a couple of s
 6. Addic7ed password for your account
 7. Opensubtitles username: Generally recommended to be provided (not necessarily needed, but avoids errors, and increase the amount of subtitles you can download)
 8. Opensubtitles password for your account
-9. Addic7ed: Use random user agent **THIS IS UNKNOWN TO ME**
+9. Addic7ed: Use random user agent: Randomizes the user agent with which the Addic7ed service is being requested. Legacy feature, will be removed in one of the upcoming versions
 10. Subtitle language (1)/(2)/(3): Your preferred languages to download subtitles for
 
+## Additional/Provider configuration
 ![Conf-2](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Conf-2.png)
 
 1. Additional Subtitle languages (Use [ISO-639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), on a comma separated list)
@@ -32,6 +35,7 @@ The configuration page will now show, and let's go through that in a couple of s
 5. Addic7ed: (TV only) boost over hash score if requirements met: 
  * if an Addic7ed subtitle matches the video's series, season, episode, year, boost its score, possibly over OpenSubtitles/TheSubDB direct hash match. Recommended for higher quality subtitle results.
 
+## Additional/Scoring configuration
 ![Conf-3](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Conf-3.png)
 
 1. I keep the exact (release-) filename of my media files: 
@@ -39,10 +43,10 @@ The configuration page will now show, and let's go through that in a couple of s
 2. Scan: Include embedded subtitles: 
  * When enabled, subliminal finds embedded subtitles (ignoring forced) that are already present within the media file.
 3. Scan: Include external subtitles: 
- * When enabled, subliminal finds subtitles located near the media file on the filesystem. (SideCars)
-4. Minimum score for TV-Show download: 
+ * When enabled, subliminal finds subtitles located near the media file (or in the configured sub-folder) on the filesystem. (SideCars)
+4. Minimum score for TV-Show download (keep the default value for best results): 
  * When configured, what is the minimum score for subtitles to download them? Lower scored subtitles are not downloaded.
-5. Minimum score for Movie download: 
+5. Minimum score for Movie download (keep the default value for best results): 
  * When configured, what is the minimum score for subtitles to download them? Lower scored subtitles are not downloaded.
 6. Download hearing impaired subtitles:
  * "prefer": score subtitles for hearing impaired higher
@@ -52,6 +56,7 @@ The configuration page will now show, and let's go through that in a couple of s
 
 <a name="store"></a>
 
+## Additional/Storage configuration
 ![Conf-4](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Conf-4.png)
 
 1. Store subtitles next to media files (instead of metadata): 
@@ -65,10 +70,11 @@ The configuration page will now show, and let's go through that in a couple of s
 
 <a name="scheduler"></a>
 
+## Additional/Scheduler configuration
 ![Conf-5](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Conf-5.png)
 
 1. Ignore folders (...): 
- * If a folder contains one of the files named subzero.ignore, .subzero.ignore, .nosz, don't process them. This applies to sections/libraries, movies, series, seasons, episodes
+ * If a folder contains one of the files named `subzero.ignore`, `.subzero.ignore`, `.nosz`, don't process them. This applies to sections/libraries, movies, series, seasons, episodes
 2. Scheduler:
 Periodically search for recent items with missing subtitles: 
  * self-explanatory, executes the task "Search for missing subtitles" from the channel menu regularly. Configure how often it should do that. For the average library 6 hours minimum is recommended, to not hammer the providers too heavily, since this could cause you to be banned for a period of time
@@ -79,6 +85,7 @@ Periodically search for recent items with missing subtitles:
 
 <a name="develop"></a>
 
+## Additional/Debug configuration
 ![Conf-6](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Conf-6.png)
 
 1. Check for correct folder permissions of every library on plugin start: 
