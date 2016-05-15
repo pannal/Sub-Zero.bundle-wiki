@@ -18,4 +18,4 @@ Plex forum thread: [https://forums.plex.tv/discussion/186575](https://forums.ple
 * [[Support|Support]]
 * [[License|License]]
 
-Wiki credits go mainly to the awesome @ukdtom (Tommy Mikkelsen)
+Wiki credits go mainly to the awesome [@ukdtom](https://github.com/ukdtom) (Tommy Mikkelsen)
