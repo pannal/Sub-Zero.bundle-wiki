@@ -17,3 +17,5 @@ Plex forum thread: [https://forums.plex.tv/discussion/186575](https://forums.ple
 * [[Developers Corner|Developers-Corner]]
 * [[Support|Support]]
 * [[License|License]]
+
+Wiki credits go mainly to the awesome @ukdtom (Tommy Mikkelsen)
