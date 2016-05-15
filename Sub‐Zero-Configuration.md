@@ -24,7 +24,7 @@ The configuration page will now show, and let's go through that in a couple of s
 9. Addic7ed: Use random user agent: Randomizes the user agent with which the Addic7ed service is being requested. Legacy feature, will be removed in one of the upcoming versions
 10. Subtitle language (1)/(2)/(3): Your preferred languages to download subtitles for
 
-## Additional/Provider configuration
+## Additional: Language and provider configuration
 ![Conf-2](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Conf-2.png)
 
 1. Additional Subtitle languages (Use [ISO-639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), on a comma separated list)
@@ -35,7 +35,7 @@ The configuration page will now show, and let's go through that in a couple of s
 5. Addic7ed: (TV only) boost over hash score if requirements met: 
  * if an Addic7ed subtitle matches the video's series, season, episode, year, boost its score, possibly over OpenSubtitles/TheSubDB direct hash match. Recommended for higher quality subtitle results.
 
-## Additional/Scoring configuration
+## Additional: Library, scoring and scanning configuration
 ![Conf-3](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Conf-3.png)
 
 1. I keep the exact (release-) filename of my media files: 
@@ -56,7 +56,7 @@ The configuration page will now show, and let's go through that in a couple of s
 
 <a name="store"></a>
 
-## Additional/Storage configuration
+## Additional: Subtitles storage location and naming configuration
 ![Conf-4](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Conf-4.png)
 
 1. Store subtitles next to media files (instead of metadata): 
@@ -70,7 +70,7 @@ The configuration page will now show, and let's go through that in a couple of s
 
 <a name="scheduler"></a>
 
-## Additional/Scheduler configuration
+## Additional: Scheduler configuration
 ![Conf-5](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Conf-5.png)
 
 1. Ignore folders (...): 
@@ -85,7 +85,7 @@ Periodically search for recent items with missing subtitles:
 
 <a name="develop"></a>
 
-## Additional/Debug configuration
+## Additional: Debug configuration
 ![Conf-6](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Conf-6.png)
 
 1. Check for correct folder permissions of every library on plugin start: 
