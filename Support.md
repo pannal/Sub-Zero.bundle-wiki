@@ -17,5 +17,6 @@ When creating an issue, remember:
 
 **Remember**: If you're using the [[manual installation|Developers-Corner]], before you open a bug-ticket please double-check, that you've deleted the Sub-Zero.bundle folder **BEFORE** every update (to avoid .pyc leftovers)
 
+[[Next page|License]]
 
 [[Back to main page|Home]]
