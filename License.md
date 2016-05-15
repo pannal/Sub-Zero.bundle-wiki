@@ -1,6 +1,6 @@
 # License
 -------
-The Unlicense
+[The Unlicense](http://unlicense.org/)
 
 ## Libraries
 ---------
