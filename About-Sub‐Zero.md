@@ -1,14 +1,27 @@
-Sub-Zero is a Metadata agent, that will download subtitles automatically for your movies and TV-Shows, but where it differs from other agents out there, is that it not only can search multiple sites for the best match, but also has a build in scheduler and a graphical interface for manual operations.  
+# Advanced Usage
+Here you'll find information about adv. usage, and please only use the info below, if you know what you are doing
 
-Sub-Zero is based on [Subliminal](https://github.com/bramwalet/Subliminal.bundle). 
-Sub-Zero will search on the following sites for the best matching subtitles:
+## Remote access to the channel
 
-* OpenSubtitles
-* ~~TheSubDB~~
-* Podnapisi.NET
-* Addic7ed
-* TVsubtitles.net
+The features available in the channel menu are in fact accessible and usable from the outside, just as any other channel with routes. This means, that if you're not happy with the scheduler's interval for example, you can take the following URL: http://plex_ip:32400/video/subzero/missing/refresh?X-Plex-Token=XXXXXXXXXXXXXXX (the X-Plex-Token part may not be needed outside of a Plex Home) and open the URL using your favourite command line tool or script (curl, wget, ...). This will trigger the same background task which would be started by the scheduler or by clicking the item in the channel menu.
 
-All providers can be disabled or enabled on a per provider setting. Certain preferences change the behaviour of subliminal, for instance the minimum score of subtitles to download, or whether to download hearing impaired subtitles or not. The agent stores the subtitles as metadata, but can be [[configured|Configuration#wiki-store]] to store it next to the media files.
+You can find all available routes by querying http://plex_ip:32400/video/subzero (look for the key="" entries).
+
+To lookup your personal token, take a peak [here](https://support.plex.tv/hc/en-us/articles/204059436)
+
+## Adv. Channel menu
+
+In the Advanced channel menu, you'll see the following:
+
+![Advanced_1](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Advanced_1.png)
+
+1. Restart the plugin
+ * This will restart Sub-Zero, and read the configuration
+2. This will make a log entry of the selected setting.
+ * Used if debugging, or if asked so by a developer
+3. This will reset a saved setting to it's default
+ * Used if debugging, or if asked so by a developer
+
+[[Next page|Developers-Corner]]
 
 [[Back to main page|Home]]
