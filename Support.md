@@ -14,6 +14,7 @@ When creating an issue, remember:
 
 * be sure to post your logs with your log_level to DEBUG in Sub-Zero's settings
 * <a name="logging"></a>get `Library/Application Support/Plex Media Server/Logs/PMS Plugin Logs/com.plexapp.agents.subzero.log`; there may be multiple logs (`com.plexapp.agents.subzero.log.*`) depending on the amount of Videos you're refreshing
+* post your log files to any public pastebin, or zip them up and post them _as an attachment or link_ to the bug-ticket or the public forum
 
 **Remember**: If you're using the [[manual installation|Developers-Corner]], before you open a bug-ticket please double-check, that you've deleted the Sub-Zero.bundle folder **BEFORE** every update (to avoid .pyc leftovers)
 
