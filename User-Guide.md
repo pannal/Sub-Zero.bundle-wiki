@@ -61,7 +61,7 @@ The built-in scheduler is capable of running a number of tasks periodically in a
 
 Sometimes subtitles aren't needed or wanted for parts of your library.
 
-When creating a file named `subzero.ignore`, `.subzero.ignore`, or `.nosz` in any of your library's folders, be it the section itself, a TV show, a movie, or even a season, Sub-Zero will skip processing the contents of that folder on a scheduled run.
+When a file named `subzero.ignore`, `.subzero.ignore`, or `.nosz` is found by the plugin in any of your library's folders, be it the section itself, a TV show, a movie, or even a season, Sub-Zero will skip processing the contents of that folder on a scheduled run.
 
 BETA notes: This may still mean that the scheduler task for missing subtitles triggers refresh actions on those items, but the refresh handler itself will skip those.
 
