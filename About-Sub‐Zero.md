@@ -9,7 +9,7 @@ Sub-Zero will search on the following sites for the best matching subtitles:
 * Addic7ed
 * TVsubtitles.net
 
-All providers can be disabled or enabled on a per provider setting. Certain preferences change the behaviour of subliminal, for instance the minimum score of subtitles to download, or whether to download hearing impaired subtitles or not. The agent stores the subtitles as metadata, but can be [[configured|Configuration#wiki-store]] to store it next to the media files.
+All providers can be disabled or enabled on a per provider setting. Certain preferences change the behaviour of subliminal, for instance the minimum score of subtitles to download, or whether to download hearing impaired subtitles or not. The agent stores the subtitles as metadata, but can be [[configured|Sub‐Zero-Configuration#wiki-store]] to store it next to the media files.
 
 [[Next page|Installation]]
 
