@@ -24,17 +24,18 @@ The Channel menu will then show, and we'll go through that in a few steps:
 ![Settings](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Channel_2.png)
 
 1. On Deck Items
- * Here you see the medias that are On Deck, allowing you to:
-    - Refresh the item, in order to maybe pick up a new subtitle
+ * Here you see the medias that are On Deck (returned by the Plex API), allowing you to:
+    - Refresh the item, in order to maybe pick up a missing subtitle
     - Force Refresh, Ignoring all subs, and go hunt for them again
     - Add the media to the internal [Ignore list](#ignore), meaning that Sub-Zero will not process that media again
 2. Items with missing subtitles
- * Here you search for items considered resent (See the [[Sub‐Zero Configuration|Sub‐Zero-Configuration]] menu)
+ * Here you search for items considered recent (See the [[Sub‐Zero Configuration|Sub‐Zero-Configuration]] menu)
    - you can then select the individual medias, and select between the medias as on above
 3. Browse all items
  * here you start by selecting a library, and then a media based on the alphabet list.
    - after that, menu is as above 
-4. **PANNAL Same as item 2?**
+4. Search for missing subtitles
+ * runs the search-for-missing-subtitles task manually. This normally runs periodically as configured via [scheduler configuration](https://github.com/pannal/Sub-Zero.bundle/wiki/Sub%E2%80%90Zero-Configuration#scheduler-configuration). 
 
 ![Settings](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Channel_3.png)
 
