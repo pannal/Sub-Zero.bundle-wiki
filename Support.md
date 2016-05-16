@@ -2,7 +2,7 @@
 
 If you have a question about Sub-Zero, please post a question in the [forum support thread](https://forums.plex.tv/discussion/186575)
 
-Also note, that you might be asked to provide logs, and if so, make sure that the [[logging level|Configuration#wiki-develop]] is set to debug.
+Also note, that you might be asked to provide logs, and if so, make sure that the [[logging level|Sub‐Zero-Configuration#wiki-develop]] is set to debug.
 
 To locate the log files, look [here](https://support.plex.tv/hc/en-us/articles/200250417) and [below](#logging)
 
