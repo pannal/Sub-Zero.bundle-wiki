@@ -12,7 +12,8 @@ The configuration page will now show, and let's go through that in a couple of s
 ## Basic configuration
 ![Conf1](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Conf-1.png)
 
-@ukdtom please fixme :)
+**@ukdtom please fixme :)**
+
 1. Enable Sub-Zero channel.this will disable manual operation, but still allows Sub-Zero to work automatically
 2. How many download tries per subtitle (on timeout or error): How often should we retry a failed subtitle download?
 3. Your Plex.tv User name (This will not be needed in the next version)
@@ -86,7 +87,8 @@ Periodically search for recent items with missing subtitles:
 4. Recent items to consider per library: 
  * How many items to consider for every section/library you have - used in "Search for missing subtitles"-task and "Items with missing subtitles"-menu. Change at your own risk!
 
-@ukdtom please fixme :)
+**@ukdtom please fixme :)**
+
 * Ignore anything in the following paths (comma-separated)
 * Call this executable upon successful subtitle download:
   * Executes a given executable with an optional amount of variables filled by SZ:
