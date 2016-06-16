@@ -12,19 +12,15 @@ The configuration page will now show, and let's go through that in a couple of s
 ## Basic configuration
 ![Conf1](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Conf-1.png)
 
-**@ukdtom please fixme :)**
-
 1. Enable Sub-Zero channel.this will disable manual operation, but still allows Sub-Zero to work automatically
 2. How many download tries per subtitle (on timeout or error): How often should we retry a failed subtitle download?
-3. Your Plex.tv User name (This will not be needed in the next version)
-4. Your Plex.tv Password (This will not be needed in the next version)
-5. Addic7ed username: 
+3. Addic7ed username: 
  * Provide your addic7ed username here, otherwise the provider won't work. Please make sure your account is activated, before using the agent
-6. Addic7ed password for your account
-7. Opensubtitles username: Generally recommended to be provided (not necessarily needed, but avoids errors, and increase the amount of subtitles you can download)
-8. Opensubtitles password for your account
-9. Addic7ed: Use random user agent: Randomizes the user agent with which the Addic7ed service is being requested. Legacy feature, will be removed in one of the upcoming versions
-10. Subtitle language (1)/(2)/(3): Your preferred languages to download subtitles for
+4. Addic7ed password for your account
+5. Opensubtitles username: Generally recommended to be provided (not necessarily needed, but avoids errors, and increase the amount of subtitles you can download)
+6. Opensubtitles password for your account
+7. Addic7ed: Use random user agent: Randomizes the user agent with which the Addic7ed service is being requested. Legacy feature, will be removed in one of the upcoming versions
+8. Subtitle language (1)/(2)/(3): Your preferred languages to download subtitles for
 
 ## Language and provider configuration
 ![Conf-2](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Conf-2.png)
