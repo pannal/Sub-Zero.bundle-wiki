@@ -75,20 +75,21 @@ The configuration page will now show, and let's go through that in a couple of s
 
 1. Ignore folders (...): 
  * If a folder contains one of the files named `subzero.ignore`, `.subzero.ignore`, `.nosz`, don't process them. This applies to sections/libraries, movies, series, seasons, episodes
-2. Scheduler:
-Periodically search for recent items with missing subtitles: 
- * self-explanatory, executes the task "Search for missing subtitles" from the channel menu regularly. Configure how often it should do that. For the average library 6 hours minimum is recommended, to not hammer the providers too heavily, since this could cause you to be banned for a period of time
-3. Item age to be considered recent: 
- * The "Search for missing subtitles"-task only considers those items in the recently-added list, that are at most this old
-4. Recent items to consider per library: 
- * How many items to consider for every section/library you have - used in "Search for missing subtitles"-task and "Items with missing subtitles"-menu. Change at your own risk!
-
-**@ukdtom please fixme :)**
-
-* Ignore anything in the following paths (comma-separated)
-* Call this executable upon successful subtitle download:
+2. Ignore anything in the following paths (comma-separated)
+3. Call this executable upon successful subtitle download:
   * Executes a given executable with an optional amount of variables filled by SZ:
     `%(subtitle_language)s %(subtitle_path)s %(subtitle_filename)s %(provider)s %(score)s %(storage)s %(series_id)s %(series)s %(title)s %(section)s %(filename)s %(path)s %(folder)s %(season_id)s %(type)s %(id)s %(season)s`
+4. Scheduler:
+Periodically search for recent items with missing subtitles: 
+ * self-explanatory, executes the task "Search for missing subtitles" from the channel menu regularly. Configure how often it should do that. For the average library 6 hours minimum is recommended, to not hammer the providers too heavily, since this could cause you to be banned for a period of time
+5. Item age to be considered recent: 
+ * The "Search for missing subtitles"-task only considers those items in the recently-added list, that are at most this old
+6. Recent items to consider per library: 
+ * How many items to consider for every section/library you have - used in "Search for missing subtitles"-task and 
+
+* UKDTOM "Items with missing subtitles"-menu. Change at your own risk!
+
+
 
 <a name="develop"></a>
 
