@@ -21,6 +21,8 @@ To access the channel menu, start by selecting the Channel menu, followed by cli
 
 The Channel menu will then show, and we'll go through that in a few steps:
 
+![Channel1](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Channel_1_1.png)
+
 ![Settings](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Channel_2.png)
 
 1. On Deck Items
