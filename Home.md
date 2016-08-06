@@ -9,6 +9,12 @@ Originally based on [@bramwalet](https://github.com/bramwalet) awesome [Sublimin
 
 Plex forum thread: [https://forums.plex.tv/discussion/186575](https://forums.plex.tv/discussion/186575)
 
+
+***
+> **Being asked for logs? [[Check here|Support#logging]]!**
+
+***
+
 #### Wiki index
 * [[About Sub-Zero|About-Sub‐Zero]]
 * [[Installation|Installation]]
