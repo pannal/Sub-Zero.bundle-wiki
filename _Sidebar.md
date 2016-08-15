@@ -1,5 +1,6 @@
 * [[Home|Home]]
 * [[About Sub-Zero|About-Sub‐Zero]]
+* [[FAQ|FAQ]]
 * [[Installation|Installation]]
 * [[Configuration|Configuration]]
 * [[User Guide|User-Guide]]
