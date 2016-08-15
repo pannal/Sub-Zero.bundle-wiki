@@ -17,6 +17,7 @@ Plex forum thread: [https://forums.plex.tv/discussion/186575](https://forums.ple
 
 #### Wiki index
 * [[About Sub-Zero|About-Sub‐Zero]]
+* [[Frequently Asked Questions|FAQ]]
 * [[Installation|Installation]]
 * [[Configuration|Configuration]]
 * [[User Guide|User-Guide]]
