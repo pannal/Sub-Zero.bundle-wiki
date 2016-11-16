@@ -17,6 +17,17 @@ When selecting a media, while like browsing a library from Sub-Zero, you are pre
    - After list is populated, you can select one, and it will be downloaded
 5. Add this media to the "ignore list", so Sub-Zero will skip this in the future
 
-Below is shown a list of available subtitles to download
+Below is shown the menu after selecting to search for a subtitle for a specific language
  
 ![Media](https://github.com/pannal/Sub-Zero.bundle/blob/master/Wiki/Images/Item_2.png)
+
+1. Back to home
+ * returns you to the home menu of Sub-Zero
+2. Back to media menu
+ * returns you to the menu of the individual media
+3. Allows you to research for subtitles for the selected language
+4. Download the selected subtitle
+
+[[Back to main page|Home]]
+
+[Go to top](#top)
