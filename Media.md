@@ -28,6 +28,7 @@ Below is shown the menu after selecting to search for a subtitle for a specific 
 3. Allows you to research for subtitles for the selected language
 4. Download the selected subtitle
 
+[[Back to User Guide|User-Guide]]
 [[Back to main page|Home]]
 
 [Go to top](#top)
