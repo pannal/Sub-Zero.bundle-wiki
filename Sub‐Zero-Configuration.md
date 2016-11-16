@@ -43,9 +43,9 @@ The configuration page will now show, and let's go through that in a couple of s
 3. Scan: Include external subtitles: 
  * When enabled, subliminal finds subtitles located near the media file (or in the configured sub-folder) on the filesystem. (SideCars)
 4. Minimum score for TV-Show download (keep the default value for best results): 
- * When configured, what is the minimum score for subtitles to download them? Lower scored subtitles are not downloaded.
+ * When configured, what is the minimum score for subtitles to download them? Lower scored subtitles are not downloaded. See [here](https://github.com/pannal/Sub-Zero.bundle/wiki/Media-Score) for more info
 5. Minimum score for Movie download (keep the default value for best results): 
- * When configured, what is the minimum score for subtitles to download them? Lower scored subtitles are not downloaded.
+ * When configured, what is the minimum score for subtitles to download them? Lower scored subtitles are not downloaded.See [here](https://github.com/pannal/Sub-Zero.bundle/wiki/Media-Score) for more info
 6. Download hearing impaired subtitles:
  * "prefer": score subtitles for hearing impaired higher
  * "don't prefer": score subtitles for hearing impaired lower
