@@ -102,7 +102,7 @@ Periodically search for recent items with missing subtitles:
 4. Log to console (for development/debugging): 
  * You know when you need it
 5. Help the developers collecting anonymous usage statistics
- * Helps in planning new feutures
+ * Helps in planning new features
 
 [[Next page|User-Guide]]
 
