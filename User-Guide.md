@@ -43,9 +43,10 @@ The Channel menu will then show, and we'll go through that in a few steps:
 
 1. Display [Ignore list](#ignore)
   * List all items in the [Ignore list](#ignore), and allowing you to remove an item, if needed
-2. Refresh
+2. Display History of latest downloaded subtitles
+3. Refresh
   * This will refresh the status of the Channel menu
-3. Advanced functions
+4. Advanced functions
   * See [[Advanced usage|Advanced-usage]]
 
 <a name="ignore"></a>
