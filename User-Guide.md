@@ -35,7 +35,7 @@ The Channel menu will then show, and we'll go through that in a few steps:
    - you can then select the individual medias, and select between the medias as on above
 3. Browse all items
  * here you start by selecting a library, and then a media based on the alphabet list.
-   - after that, menu is as above 
+   - after that, menu is as [this](https://github.com/pannal/Sub-Zero.bundle/wiki/Media)
 4. Search for missing subtitles
  * runs the search-for-missing-subtitles task manually. This normally runs periodically as configured via [scheduler configuration](https://github.com/pannal/Sub-Zero.bundle/wiki/Sub%E2%80%90Zero-Configuration#scheduler-configuration). 
 
