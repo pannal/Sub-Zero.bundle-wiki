@@ -123,6 +123,12 @@ verified `hash` 62 = 62 or<br>
 `resolution` 4 + `format` 6 + `video_codec` 4 + `audio_codec` 2 + `title` 23 + `year` 12 + `release_group` 11 = 62
 
 
+# Special scores
+### addic7ed_boost (TV)
+Can be configured in the preferences dialog. If a subtitle was found for your configured score on Addic7ed and it matches at least `series`, `season`, `episode`, `year`, `format`, the configured value gets added to the subtitle's final score to lift it "above" the other provider's results.
+
+This is often used and has a default value of 10, because in general, when Addic7ed matches a subtitle, it tends to have a very high quality compared to other providers. As Addic7ed doesn't use hashes and doesn't have too much media property info on their site, `addic7ed_boost` helps by prioritizing the provider.
+
 [[Next page|User-Guide]]
 
 [[Back to main page|Home]]
