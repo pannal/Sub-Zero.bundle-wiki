@@ -10,7 +10,7 @@ When selecting a media, while like browsing a library from Sub-Zero, you are pre
  * This will issue a Plex Media Server "Forced Refresh"
    - All metadata except locked items will be refreshed
    - All current subtitles will be discarded from agent downloads, and new ones will be fetched/downloaded
-   - Locally stored subs (Next to the media) will not be touched
+   - Locally stored subs (Next to the media) will not be touched unless they're named exactly the way SZ would name the downloaded ones
 4. List <Language> subtitles
    - All enabled providers will be searched for available subtitles, and shown in an ordered list, with the best match on the top
     - you will have to refresh in order to see progress in the fetching of this info
