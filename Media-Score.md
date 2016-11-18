@@ -3,6 +3,7 @@ Sub-Zero detects certain media properties of your media files (especially their 
 
 Every significant property has a particular score assigned. When evaluating which subtitle to download Sub-Zero sums the scores for each matching property and takes the one with the highest.
 
+The minimum score a subtitle has to have for it to be downloaded by Sub-Zero can be set in the preferences dialog. The defaults should fit perfectly for most people, you may wish to customize them to your likings, though. Have a look below, then.
 
 # Properties (TV Series)
 
