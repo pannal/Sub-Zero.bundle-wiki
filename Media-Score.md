@@ -7,7 +7,7 @@ Every significant property has a particular score assigned. When evaluating whic
 # Properties (TV Series)
 
 ### hash (Score: 137)
-The specific hash of your local file matches against the hash given by the subtitle provider for the file(s) it matches perfectly for. This is error-prone as people tend to add wrong hashes for wrong subtitles on OpenSubtitles especially. That's why Sub-Zero sanity-checks the hashes and only applies the score if certain other parameters match correctly (TV: series, season, episode, format; Movies: video_codec, format).
+The specific hash of your local file matches against the hash given by the subtitle provider for the file(s) it matches perfectly for. This is error-prone as people tend to add wrong hashes for wrong subtitles on OpenSubtitles especially. That's why Sub-Zero sanity-checks the hashes and only applies the score if certain other parameters match correctly (`series`, `season`, `episode`, `format`).
 
 
 ### imdb_id (Score: 110)
@@ -61,6 +61,44 @@ The audio codec matches (AAC, MP3, ...). Probably one of the parameters that can
 ### hearing_impaired (Score: 1)
 The hearing impaired flag matches your Sub-Zero setting. (E.g. you've got the setting at force-HI and the subtitle is hearing impaired: match)
 
+
+# Properties (Movies)
+
+### hash (Score: 62)
+See [TV hash property](#hash-score-137). The only difference is the sanity check, which relies on matching `video_codec` and `format`.
+
+### imdb_id (Score: 62)
+See [TV hash property](#imdb_id-score-110).
+
+### title (Score: 23)
+The movie title matches.
+
+### year (Score: 12)
+A year info is given and it matches the subtitle.
+
+### release_group (Score: 11)
+See [TV hash property](#release_group-score-11).
+
+### format (Score: 6)
+See [TV hash property](#format-score-6).
+
+### video_codec (Score: 4)
+See [TV hash property](#video_codec-score-4).
+
+### resolution (Score: 4)
+See [TV hash property](#resolution-score-4).
+
+### audio_codec (Score: 2)
+See [TV hash property](#audio_codec-score-2).
+
+### hearing_impaired (Score: 1)
+See [TV hash property](#hearing_impaired-score-1).
+
+
+# Defaults
+
+## TV
+### Minimum: 77
 
 
 [[Next page|User-Guide]]
