@@ -98,8 +98,15 @@ See [TV hash property](#hearing_impaired-score-1).
 # Defaults
 
 ## TV
-### Minimum: 77
+### Minimum: 77 and above
+`series` 44 + `season` 22 + `episode` 11 = 77
 
+### Sane: 110 and above
+`series` 44 + `season` 22 + `episode` 11 + `title` 22 + `release_group` 11 = 110
+
+### Exact: 137 (few to none early matches)
+* verified `hash` = 137
+* `resolution` 4 + `format` 6 + `video_codec` 4 + `audio_codec` 2 + `series` 44 + `season` 11 + `episode` 11 + `year` 44 + `release_group` 11 = 137
 
 [[Next page|User-Guide]]
 
