@@ -114,7 +114,7 @@ verified `hash` = 137 or<br>
 `title` 23 = 23
 
 ### Sane: 33 and above
-`title` 23 + `format` 6 + `video_codec` 4 = 33
+`title` 23 + `format` 6 + `video_codec` 4 = 33 or <br>
 `title` 23 + `release_group` 11 = 34
 
 ### Exact: 62 (few to none early matches)
