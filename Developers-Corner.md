@@ -16,7 +16,7 @@ In order to allow your development to not be overwritten automatically by the Pl
 
 ### Logging to console:
 
-During development, it might be useful to enable [[Console logging|Sub‐Zero-Configuration#wiki-develop]], but do note, that if no console is running, some platforms will error out then
+During development, it might be useful to enable [[Console logging|Sub‐Zero-Configuration#advanced-configuration]], but do note, that if no console is running, some platforms will error out then
 
 [[Next page|Support]]
 
