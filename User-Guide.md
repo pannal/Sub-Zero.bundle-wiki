@@ -60,7 +60,7 @@ The ignore list can be managed by going through your library using the "Browse a
 
 The built-in scheduler is capable of running a number of tasks periodically in a separate Thread of the plugin. This currently is used to automatically periodically search for new subtitles for your media items. See [[Sub‐Zero Configuration|Sub‐Zero-Configuration#wiki-scheduler]]
 
-# BETA: Physically Ignoring Media
+# Physically Ignoring Media
 
 Sometimes subtitles aren't needed or wanted for parts of your library.
 
