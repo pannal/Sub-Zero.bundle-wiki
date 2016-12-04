@@ -26,5 +26,8 @@ But consider this: You've got release name `Blabla.2015.x264-GROUP.mkv` and you 
 But as the tag match is treated the same as a hash match, the sanity checks are applied as well, which may help enough to not get any wrong subtitles.<br><br>
 Due to the nature of OpenSubtitles one can add `Moviename Blabla Subtitle HEHEHE` as a subtitle name and specify multiple movie hashes, and alternative file names (tags), which may match your local file. The feature was added because Sub-Zero can't determine enough info from `Moviename Blabla Subtitle HEHEHE` because the uploader was lazy, but it may find the full filename in the alternative names list.
 
+### DistributionNotFound Error
+Your PythonPath may include your system python.<br>
+Please [follow this to fix the issue](https://forums.plex.tv/discussion/209304/suggestion-debian-packages-and-pythonpath).
 
 [[Back to main page|Home]]
