@@ -14,7 +14,8 @@ your library folders should be writable by the user your Plex server runs as
 [Maybe it won't, on the first try](https://github.com/pannal/Sub-Zero.bundle/wiki/User-Guide#attention-on-the-initial-refresh)
 
 ### Sub-Zero doesn't find any or wrong subtitles for my media
-[Although SZ tries to be smart, folder/file-naming may be your issue](https://forums.plex.tv/discussion/comment/1234850/#Comment_1234850)
+[Although SZ tries to be smart, folder/file-naming may be your issue](https://forums.plex.tv/discussion/comment/1234850/#Comment_1234850).<br>
+Also you may want to [adjust the scores](http://v.ht/szscores).
 
 ### Where are the logs
 See [Support](https://github.com/pannal/Sub-Zero.bundle/wiki/Support#support)
