@@ -1,5 +1,5 @@
 ### Sub-Zero is not visible among the channels
-Most likely, channel mode has been disabled. See [Configuration/Basic item 1](https://github.com/pannal/Sub-Zero.bundle/wiki/Sub%E2%80%90Zero-Configuration#basic-configuration)
+Most likely, channel mode has been disabled. See [EnableChannel](https://github.com/pannal/Sub-Zero.bundle/wiki/Sub%E2%80%90Zero-Configuration#EnableChannel)
 If so, go to Settings/Agents of your server, and select the "Movies"/"Plex Movie" tab. In there, you'll find an entry for Sub-Zero, and can press the gear icon to launch the settings of it
 
 ### I'm running the plugin for the first time and want to have subtitles for all of my old items
