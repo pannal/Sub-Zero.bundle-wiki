@@ -95,6 +95,7 @@ Periodically search for recent items with missing subtitles:
 3. Ignore folders (...)
  * If a folder contains one of the files named `subzero.ignore`, `.subzero.ignore`, `.nosz`, don't process them. This applies to sections/libraries, movies, series, seasons, episodes
 4. Ignore anything in the following paths (comma-separated)
+<a name="EnableChannel"></a>
 5. Enable Sub-Zero channel.this will disable manual operation, but still allows Sub-Zero to work automatically
 6. Call this executable upon successful subtitle download
  * Here you can specify a file to be executed after SZ finish downloading a subtitle
