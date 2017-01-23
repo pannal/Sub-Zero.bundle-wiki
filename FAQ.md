@@ -17,6 +17,10 @@ your library folders should be writable by the user your Plex server runs as
 ### After I install Sub-Zero it finds some but not all subtitles for my media
 [Maybe it won't, on the first try](https://github.com/pannal/Sub-Zero.bundle/wiki/User-Guide#attention-on-the-initial-refresh)
 
+### Sub-Zero Reports "Please enable me; currently I do nothing"
+
+Locate your [Plex Meta-Data Agents](https://support.plex.tv/hc/en-us/articles/200241558-Agents) settings, and you will see a new source available for Sub-Zero. As of writing, this Sub-Zero meta-data source is found on libraries of type "Movies" or "Shows"
+
 ### Sub-Zero doesn't find any or wrong subtitles for my media
 [Although SZ tries to be smart, folder/file-naming may be your issue](https://forums.plex.tv/discussion/comment/1234850/#Comment_1234850).<br>
 Also you may want to [adjust the scores](http://v.ht/szscores).
