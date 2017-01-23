@@ -15,20 +15,25 @@ your library folders should be writable by the user your Plex server runs as
   * while your PMS is running, on your own risk
 
 ### After I install Sub-Zero it finds some but not all subtitles for my media
-[Maybe it won't, on the first try](https://github.com/pannal/Sub-Zero.bundle/wiki/User-Guide#attention-on-the-initial-refresh)
+
+[You might be hitting rate-limits if you search a large library](https://github.com/pannal/Sub-Zero.bundle/wiki/User-Guide#attention-on-the-initial-refresh)
 
 ### Sub-Zero Reports "Please enable me; currently I do nothing"
 
 Locate your [Plex Meta-Data Agents](https://support.plex.tv/hc/en-us/articles/200241558-Agents) settings, and you will see a new source available for Sub-Zero. As of writing, this Sub-Zero meta-data source is found on libraries of type "Movies" or "Shows". See [this page](https://github.com/pannal/Sub-Zero.bundle/wiki/Agent-configuration) for more info
 
 ### Sub-Zero doesn't find any or wrong subtitles for my media
-[Although SZ tries to be smart, folder/file-naming may be your issue](https://forums.plex.tv/discussion/comment/1234850/#Comment_1234850).<br>
-Also you may want to [adjust the scores](http://v.ht/szscores).
+
+Although SZ tries to be smart, folder/file-naming may be your issue. See [How Matching Works] (https://github.com/pannal/Sub-Zero.bundle/wiki/How-Matching-Works) for more info.
+
+Also you may want to [adjust the scoring system](https://github.com/pannal/Sub-Zero.bundle/wiki/Media-Score).
 
 ### Where are the logs
+
 See [Support](https://github.com/pannal/Sub-Zero.bundle/wiki/Support#support)
 
 ### What is the "I keep the exact release title" setting?
+
 It's a special case for OpenSubtitles. They support matching for an exact filename (they call it tag match). When the option is turned on, SZ also tries the exact match (in addition to a hash based match), and if found, scores it the same as an exact hash match.<br><br>
 Turning this on should not have a big negative effect if you have some renamed files.<br><br>
 But consider this: You've got release name `Blabla.2015.x264-GROUP.mkv` and you rename it to `Blabla.mkv`. SZ searches for that filename on OpenSubtitles and some other dude (there are many of them) have added it as an alternative filename for his/her subtitle - you'll most likely get that subtitle because it's being treated with the highest possible score.
@@ -36,6 +41,7 @@ But as the tag match is treated the same as a hash match, the sanity checks are 
 Due to the nature of OpenSubtitles one can add `Moviename Blabla Subtitle HEHEHE` as a subtitle name and specify multiple movie hashes, and alternative file names (tags), which may match your local file. The feature was added because Sub-Zero can't determine enough info from `Moviename Blabla Subtitle HEHEHE` because the uploader was lazy, but it may find the full filename in the alternative names list.
 
 ### DistributionNotFound Error
+
 Your PythonPath may include your system python.<br>
 Please [follow this to fix the issue](https://forums.plex.tv/discussion/209304/suggestion-debian-packages-and-pythonpath).
 
