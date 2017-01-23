@@ -3,7 +3,10 @@ Most likely, channel mode has been disabled. See [EnableChannel](https://github.
 If so, go to Settings/Agents of your server, and select the "Movies"/"Plex Movie" tab. In there, you'll find an entry for Sub-Zero, and can press the gear icon to launch the settings of it
 
 ### I'm running the plugin for the first time and want to have subtitles for all of my old items
-[In your Plex library press the little cog, "Refresh all", it should trigger SZ](https://forums.plex.tv/discussion/comment/1230216/#Comment_1230216)
+
+In your Plex library press the little cog and select "Refresh all" ([more info](https://support.plex.tv/hc/en-us/articles/200392106))
+
+![Finding Refresh All Button](https://support.plex.tv/hc/en-us/article_attachments/202995177/library_actions_refreshall.png)
 
 ### Sub-Zero complains about permissions
 your library folders should be writable by the user your Plex server runs as
