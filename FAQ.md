@@ -4,7 +4,7 @@ If so, go to Settings/Agents of your server, and select the "Movies"/"Plex Movie
 
 ### I'm running the plugin for the first time and want to have subtitles for all of my old items
 
-In your Plex library press the little cog and select "Refresh all" ([more info](https://support.plex.tv/hc/en-us/articles/200392106)). This will re-download the library's metadata (e.g. posters, descriptions, subtitles, and other info) from the internet.
+In your Plex library press the little cog and select "Refresh all" ([more info](https://support.plex.tv/hc/en-us/articles/200392106)). This will re-download the library's metadata (e.g. posters, descriptions, subtitles, and other info) from the internet. Note that large libraries might run into API usage limits imposed by the various subtitle provider websites, you will just need to be patient until the scheduler runs another full search. 
 
 ![Finding Refresh All Button](https://support.plex.tv/hc/en-us/article_attachments/202995177/library_actions_refreshall.png)
 
