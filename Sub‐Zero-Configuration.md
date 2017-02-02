@@ -99,6 +99,7 @@ Periodically search for recent items with missing subtitles:
 5. Enable Sub-Zero channel.this will disable manual operation, but still allows Sub-Zero to work automatically
 6. Call this executable upon successful subtitle download
  * Here you can specify a file to be executed after SZ finish downloading a subtitle
+ * Available parameters: `%(subtitle_language)s %(subtitle_path)s %(subtitle_filename)s %(provider)s %(score)s %(storage)s %(series_id)s %(series)s %(title)s %(section)s %(filename)s %(path)s %(folder)s %(season_id)s %(type)s %(id)s %(season)s`
 7. Check for correct folder permissions of every library on plugin start
  * if enabled, SZ checks for write permissions of your library folders and warns about them in the plugin channel
 8. How verbose should the logging be?: 
