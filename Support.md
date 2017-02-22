@@ -18,6 +18,10 @@ When creating an issue, remember:
 
 **Remember**: If you're using the [[manual installation|Developers-Corner]], before you open a bug-ticket please double-check, that you've deleted the Sub-Zero.bundle folder **BEFORE** every update (to avoid .pyc leftovers)
 
+How to get the logs:
+* Use [WebTools Log Module](https://forums.plex.tv/discussion/126254), if that's an installed plugin
+* [Manually](https://support.plex.tv/hc/en-us/articles/200250417-Plex-Media-Server-Log-Files)
+
 [[Next page|License]]
 
 [[Back to main page|Home]]
