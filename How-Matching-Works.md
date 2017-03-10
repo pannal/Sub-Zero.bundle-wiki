@@ -12,7 +12,6 @@ The more matching metadata between a filename and a subtitle, the higher the sub
 
 You can see how matching is done by setting SZ to DEBUG info and studying the log files.
 
-In short: renaming a media file while dropping info about its content (codecs, formats, language, year ...) will lower the quality of subtitles you get, or even stop you from getting any subtitles at all, depending on your minimum score for episodes or movie subtitles. You can rename the files to your liking, though. "Guessit", which is used by SZ for detecting info from the filename, is pretty smart.
-SZ has sane defaults for minimum score: 23 for movies (title matches), for example.
+**In short: renaming a media file while dropping info about its content (codecs, formats, language, year ...) will lower the quality of subtitles you get, or even stop you from getting any subtitles at all, depending on your minimum score for episodes or movie subtitles. You can rename the files to your liking, though. "Guessit", which is used by SZ for detecting info from the filename, is pretty smart.**
 
 [Original Post](https://forums.plex.tv/discussion/comment/1234850/#Comment_1234850)
