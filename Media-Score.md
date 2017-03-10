@@ -102,10 +102,10 @@ See [TV hash property](#hearing_impaired-score-1).
 ### Minimum: 77 and above
 `series` 44 + `season` 22 + `episode` 11 = 77
 
-### Sane: 110 and above (default)
+### Sane: 110 and above
 `series` 44 + `season` 22 + `episode` 11 + `title` 22 + `release_group` 11 = 110
 
-### Ideal: 116 and above
+### Ideal: 116 and above (default)
 `series` 44 + `season` 22 + `episode` 11 + `title` 22 + `release_group` 11 + `format` 6 = 116
 
 ### Exact: 137 (few to none early matches)
@@ -114,10 +114,10 @@ verified `hash` = 137 or<br>
 
 
 ## Movies
-### Minimum: 23 and above (default)
+### Minimum: 23 and above
 `title` 23 = 23
 
-### Sane: 33 and above
+### Sane: 33 and above (default)
 `title` 23 + `format` 6 + `video_codec` 4 = 33 or <br>
 `title` 23 + `release_group` 11 = 34
 
