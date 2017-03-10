@@ -97,6 +97,10 @@ See [TV hash property](#hearing_impaired-score-1).
 
 
 # Defaults
+* Minimum: Find subtitles no matter what
+* Sane: Find subtitles matching your media file
+* Ideal: Find subtitles mostly exactly matching your media file (same video format or same release group)
+* Exact: Find subtitles exactly matching your media file
 
 ## TV
 ### Minimum: 77 and above
