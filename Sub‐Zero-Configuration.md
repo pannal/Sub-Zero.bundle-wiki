@@ -66,8 +66,8 @@ Sub-Zero allows you to select the best subtitle from multiple providers,thus pro
  * See [[Store as metadata or on filesystem|Store-as-metadata-or-on-filesystem]]
 5. Fall back to metadata storage if filesystem storage failed
  * If PMS is running on Linux, or on Windows as a service, it has to have read/write rights to media storage, in order to be able to scan/save subtitle files next to the media. If that fails, we can instead store in the PMS Library
-6. When saving a subtitle file next to a media, we can on a Linux platform stamp file-rights, if needed
-7. When scanning a filestore, if we find "left-over" subtitles for a media, that has been deleted, we can delete it if needed
+6. When saving a subtitle file next to a media, set file permissions as configured
+7. When scanning a filestore, if we find subtitles for a media file that is non-existant, SZ will delete it
 
 <a name="scheduler"></a>
 
