@@ -25,8 +25,8 @@ Uses the following libraries and their LICENSE:
 - [setuptools](https://pypi.python.org/pypi/setuptools/) (PSF ZPL)
 - [plexinc-agents/LocalMedia.bundle](https://github.com/plexinc-agents/LocalMedia.bundle) (Plex)
 - [fuzeman/plex.py](https://github.com/fuzeman/plex.py) (plex.py)
-- [carlsverre/wraptor](https://github.com/carlsverre/wraptor) (wraptor)
-- [websocket-client/websocket-client](https://github.com/websocket-client/websocket-client) (websocket-client)
+- [carlsverre/wraptor](https://github.com/carlsverre/wraptor) (MIT)
+- [websocket-client/websocket-client](https://github.com/websocket-client/websocket-client) (LGPLv3)
 
 [[Back to main page|Home]]
 
