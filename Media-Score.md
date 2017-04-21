@@ -7,55 +7,55 @@ The minimum score a subtitle has to have for it to be downloaded by Sub-Zero can
 
 # Properties (TV Series)
 
-### hash (Score: 137)
+### hash (Score: 137 (v2: 359))
 The specific hash of your local file matches against the hash given by the subtitle provider for the file(s) it matches perfectly for. This is error-prone as people tend to add wrong hashes for wrong subtitles on OpenSubtitles especially. That's why Sub-Zero sanity-checks the hashes and only applies the score if certain other parameters match correctly (`series`, `season`, `episode`, `format`).
 
 
-### imdb_id (Score: 110)
+### imdb_id (Score: 110 (v2: n/a))
 The IMDB ID of the subtitle provider's returned data matches your locally stored IMDB ID.
 
 
-### tvdb_id (Score: 88)
+### tvdb_id (Score: 88 (v2: n/a))
 The TVDB ID of the subtitle provider's returned data matches your locally stored TVDB ID.
 
 
-### series (Score: 44)
+### series (Score: 44 (v2: 180))
 The series title matches.
 
 
-### year (Score: 44)
+### year (Score: 44 (v2: 90))
 The year info of the series matches (either none given or correct one given)
 
 
-### title (Score: 22)
+### title (Score: 22 (v2: n/a))
 The _episode_ title given matches.
 
 
-### season (Score: 11)
+### season (Score: 11 (v2: 30))
 The season number matches yours.
 
 
-### episode (Score: 11)
+### episode (Score: 11 (v2: 30))
 The episode number matches yours.
 
 
-### release_group (Score: 11)
+### release_group (Score: 11 (v2: 15))
 The release group for that particular subtitle matches the release group of your media file.
 
 
-### format (Score: 6)
+### format (Score: 6 (v2: 7))
 The format matches (HDTV, BluRay, WEB-DL, WEBRip, DVDRip, ...).
 
 
-### video_codec (Score: 4)
+### video_codec (Score: 4 (v2: 2))
 The video codec matches (x264, XViD, ...).
 
 
-### resolution (Score: 4)
+### resolution (Score: 4 (v2: 2))
 The resolution matches (720p, 1080p, ...). Probably one of the parameters that can be ignored the most. Hence the low score.
 
 
-### audio_codec (Score: 2)
+### audio_codec (Score: 2 (v2: 3))
 The audio codec matches (AAC, MP3, ...). Probably one of the parameters that can be ignored the most. Hence the low score.
 
 
@@ -65,31 +65,31 @@ The hearing impaired flag matches your Sub-Zero setting. (E.g. you've got the se
 
 # Properties (Movies)
 
-### hash (Score: 62)
+### hash (Score: 62 (v2: 119))
 See [TV hash property](#hash-score-137). The only difference is the sanity check, which relies on matching `video_codec` and `format`.
 
-### imdb_id (Score: 62)
+### imdb_id (Score: 62 (v2: n/a))
 See [TV hash property](#imdb_id-score-110).
 
-### title (Score: 23)
+### title (Score: 23 (v2: 60))
 The movie title matches.
 
-### year (Score: 12)
+### year (Score: 12 (v2: 30))
 A year info is given and it matches the subtitle.
 
-### release_group (Score: 11)
+### release_group (Score: 11 (v2: 15))
 See [TV hash property](#release_group-score-11).
 
-### format (Score: 6)
+### format (Score: 6 (v2: 7))
 See [TV hash property](#format-score-6).
 
-### video_codec (Score: 4)
+### video_codec (Score: 4 (v2: 2))
 See [TV hash property](#video_codec-score-4).
 
-### resolution (Score: 4)
+### resolution (Score: 4 (v2: 2))
 See [TV hash property](#resolution-score-4).
 
-### audio_codec (Score: 2)
+### audio_codec (Score: 2 (v2: 3))
 See [TV hash property](#audio_codec-score-2).
 
 ### hearing_impaired (Score: 1)
