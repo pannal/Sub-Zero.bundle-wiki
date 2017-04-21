@@ -103,32 +103,32 @@ See [TV hash property](#hearing_impaired-score-1).
 * Exact: Find subtitles exactly matching your media file
 
 ## TV
-### Minimum: 77 and above
-`series` 44 + `season` 22 + `episode` 11 = 77
+### Minimum: 77 and above (v2: 240)
+`series` 44 + `season` 22 + `episode` 11 = 77 (v2: 240)
 
-### Sane: 110 and above
-`series` 44 + `season` 22 + `episode` 11 + `title` 22 + `release_group` 11 = 110
+### Sane: 110 and above (v2: 255)
+`series` 44 + `season` 22 + `episode` 11 + `title` 22 + `release_group` 11 = 110 (v2: 255)
 
-### Ideal: 116 and above (default)
-`series` 44 + `season` 22 + `episode` 11 + `title` 22 + `release_group` 11 + `format` 6 = 116
+### Ideal: 116 and above (default) (v2: 262)
+`series` 44 + `season` 22 + `episode` 11 + `title` 22 + `release_group` 11 + `format` 6 = 116 (v2: 262)
 
-### Exact: 137 (few to none early matches)
+### Exact: 137 (few to none early matches) (v2: 359)
 verified `hash` = 137 or<br>
-`resolution` 4 + `format` 6 + `video_codec` 4 + `audio_codec` 2 + `series` 44 + `season` 11 + `episode` 11 + `year` 44 + `release_group` 11 = 137
+`resolution` 4 + `format` 6 + `video_codec` 4 + `audio_codec` 2 + `series` 44 + `season` 11 + `episode` 11 + `year` 44 + `release_group` 11 = 137 (v2: 359)
 
 
 ## Movies
-### Minimum: 23 and above
-`title` 23 = 23
+### Minimum: 23 and above (v2: 60)
+`title` 23 = 23 (v2: 60)
 
-### Sane: 33 and above (default)
-`title` 23 + `format` 6 + `video_codec` 4 = 33 or <br>
-`title` 23 + `release_group` 11 = 34
+### Sane: 33 and above (default) (v2: 69)
+`title` 23 + `format` 6 + `video_codec` 4 = 33 (v2: 69) or <br>
+`title` 23 + `release_group` 11 = 34 (v2: 75)
 
-### Ideal: 40 and above
-`title` 23 + `format` 6 + `release_group` 11 = 40
+### Ideal: 40 and above (v2: 82)
+`title` 23 + `format` 6 + `release_group` 11 = 40 (v2: 82)
 
-### Exact: 62 (few to none early matches)
+### Exact: 62 (few to none early matches) (v2: 119)
 verified `hash` 62 = 62 or<br>
 `resolution` 4 + `format` 6 + `video_codec` 4 + `audio_codec` 2 + `title` 23 + `year` 12 + `release_group` 11 = 62
 
