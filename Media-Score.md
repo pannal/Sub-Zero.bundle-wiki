@@ -108,13 +108,15 @@ v1: `series` 44 + `season` 22 + `episode` 11 = 77
 
 v2: `series` 180 + `season` 30 + `episode` 30 = 240
 
-### Sane: 110 and above (v2: 345)
+### Sane: 110 and above (v2: 337)
 v1: `series` 44 + `season` 22 + `episode` 11 + `title` 22 + `release_group` 11 = 110
+
+v2: `series` 180 + `season` 30 + `episode` 30 + `year` 90 +  `format` 7 = 337
 
 ### Ideal: 116 and above (default) (v2: 345)
 v1: `series` 44 + `season` 22 + `episode` 11 + `title` 22 + `release_group` 11 + `format` 6 = 116
 
-v2: `series` 180 + `season` 30 + `episode` 30 + `year` 90 +  `release_group` 15 = 345
+v2: `series` 180 + `season` 30 + `episode` 30 + `year` 90 +  `release_group` 15 + `format` 7 = 352
 
 ### Exact: 137 (few to none early matches) (v2: 359)
 verified `hash` = 137 or<br>
@@ -127,10 +129,10 @@ v1: `title` 23 = 23
 
 v2: `title` 60 = 60
 
-### Sane: 33 and above (default) (v2: 67)
+### Sane: 33 and above (default) (v2: 69)
 v1: `title` 23 + `format` 6 + `video_codec` 4 = 33
 
-v2: `title` 60 + `format` 7 = 67
+v2: `title` 60 + `format` 7 + `video_codec` 2 = 69
 
 ### Ideal: 40 and above (v2: 82)
 v1: `title` 23 + `format` 6 + `release_group` 11 = 40
