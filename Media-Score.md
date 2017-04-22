@@ -113,7 +113,7 @@ v1: `series` 44 + `season` 22 + `episode` 11 + `title` 22 + `release_group` 11 =
 
 v2: `series` 180 + `season` 30 + `episode` 30 + `year` 90 +  `format` 7 = 337
 
-### Ideal: 116 and above (default) (v2: 345)
+### Ideal: 116 and above (default) (v2: 352)
 v1: `series` 44 + `season` 22 + `episode` 11 + `title` 22 + `release_group` 11 + `format` 6 = 116
 
 v2: `series` 180 + `season` 30 + `episode` 30 + `year` 90 +  `release_group` 15 + `format` 7 = 352
