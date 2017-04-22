@@ -108,7 +108,7 @@ v1: `series` 44 + `season` 22 + `episode` 11 = 77
 
 v2: `series` 180 + `season` 30 + `episode` 30 = 240
 
-### Sane: 110 and above (v2: 337)
+### Sane: 110 and above (v2: 337 (default))
 v1: `series` 44 + `season` 22 + `episode` 11 + `title` 22 + `release_group` 11 = 110
 
 v2: `series` 180 + `season` 30 + `episode` 30 + `year` 90 +  `format` 7 = 337
