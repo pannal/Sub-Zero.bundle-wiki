@@ -27,6 +27,11 @@ Uses the following libraries and their LICENSE:
 - [fuzeman/plex.py](https://github.com/fuzeman/plex.py) (plex.py)
 - [carlsverre/wraptor](https://github.com/carlsverre/wraptor) (MIT)
 - [websocket-client/websocket-client](https://github.com/websocket-client/websocket-client) (LGPLv3)
+- [SubtitleEdit/subtitleedit](https://github.com/SubtitleEdit/subtitleedit) (GPLv3)
+- [certifi/python-certifi](https://github.com/certifi/python-certifi) (MPL2.0)
+- [Toilal/rebulk](https://github.com/Toilal/rebulk) (MIT)
+- [invl/retry](https://github.com/invl/retry) (Apache 2.0)
+- [carlsverre/wraptor](https://github.com/carlsverre/wraptor) (MIT)
 
 [[Back to main page|Home]]
 
